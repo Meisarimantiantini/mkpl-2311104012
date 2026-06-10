@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.meisari</groupId>
   <artifactId>mkpl-2311104012</artifactId>
-  <version>1.0.0</version>
+  <version>0.3.5</version>
 
 <dependencies>
   <dependency>
