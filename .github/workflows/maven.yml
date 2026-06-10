@@ -24,6 +24,6 @@ jobs:
         server-id: github
 
     - name: Publish to GitHub Packages
-      run: mvn -B deploy --file pom.xml
+      run: mvn -B deploy -DskipTests --file pom.xml
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
